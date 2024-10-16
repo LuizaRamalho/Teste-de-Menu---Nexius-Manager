@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexius Manager</title>
+    
+    <!-- Importando fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Abyssinica+SIL&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="teste.js">
+    <script src="https://kit.fontawesome.com/5729e0ff2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Nexius Manager</div>
+
+        <!-- Menu de navegação para desktop -->
+        <ul class="nav-links">
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#create-account">Crie Sua Conta Nexius</a></li>
+            <li><a href="#your-nexius">Seu Nexius</a></li>
+        </ul>
+
+        <!-- Menu mobile (hamburguer) -->
+        <div class="mobile-menu" id="mobileMenu">
+            <button id="closeButton" class="close">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <ul class="nav-links-mobile">
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#create-account">Crie Sua Conta Nexius</a></li>
+                <li><a href="#your-nexius">Seu Nexius</a></li>
+            </ul>
+        </div>
+
+        <!-- Botão de hamburguer -->
+        <button class="hamburger" id="hamburgerButton">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
